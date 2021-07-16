@@ -1,6 +1,6 @@
 @props(['moderators'])
 
-<div class="bg-white shadow mt-6">
+<div class="bg-white shadow rounded-md mt-6">
     <h3 class="text-xl font-semibold px-5 pt-5">Moderators</h3>
     <ul>
         @foreach ($moderators as $moderator)
